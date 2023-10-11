@@ -1,0 +1,23 @@
+{
+  "type":"commonjs",
+  "name": "s22_h1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src",
+  "scripts": {
+    "version": "tsc --version",
+    "start": "node ./Shape.js",
+    "build": "tsc ./Shape.ts",
+    "dev": "ts-node ./Shape.ts",
+    "test": "mocha test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "chai": "^4.3.7",
+    "mocha": "^10.1.0",
+    "typescript": "^4.9.3"
+  }
+}
